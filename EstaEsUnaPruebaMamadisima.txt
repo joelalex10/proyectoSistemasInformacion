@@ -4,6 +4,17 @@
         self.nombre = nombre
         self.apellido = apellido
 
+ apellido = ""
+
+    def __init__(self, nombre,apellido):
+        self.nombre = nombre
+        self.apellido = apellido
+
+    def getNombre(self):
+        return self.nombre
+
+    def getApellido(self):
+        return self.ape
     def getNombre(self):
         return self.nombre
 
