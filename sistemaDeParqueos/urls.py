@@ -22,5 +22,10 @@ from sistemaDeParqueos import vistas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/',vistas.saludo),
-    path('fecha/<int:edad>/<int:nacimiento>',vistas.obtenerFecha)
+    path('fecha/<int:edad>/<int:nacimiento>',vistas.obtenerFecha),
+    path('inicio/',vistas.mostrarLogin),
+    path('comparacion/',vistas.comparacion),
+    path('cargador/',vistas.cargardor),
+    path('llamadas/',vistas.llamada_estilos),
+    path('logIn/',vistas.mostrarLogin)
 ]

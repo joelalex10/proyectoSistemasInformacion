@@ -5,8 +5,29 @@
     <title>PERSONA</title>
 </head>
 <body>
-    <h1>{{variable}}</h1>
+
+    {% include "barra.html" %}
+
+    <h1 style="color: darkblue">
+        ESTE ES EL TITULO
+    </h1>
+
+
+    <h2>{{variable}}</h2>
     <p>Ahora es: {{fecha}}</p>
+    <p>La version es: {{ arquitectura }}</p>
+
+    <p>
+        <ul>
+        {% if materias %}
+            {% for laMateria in materias %}
+                <li>{{ laMateria }}</li>
+            {% endfor %}
+        {% else %}
+            <p>No hay elementos para mostrar</p>
+        {% endif %}
+        </ul>
+    </p>
 
 </body>
 </html>

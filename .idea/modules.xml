@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/proyectoSistemasInformacion.iml" filepath="$PROJECT_DIR$/.idea/proyectoSistemasInformacion.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/sistemaDeParqueos.iml" filepath="$PROJECT_DIR$/.idea/sistemaDeParqueos.iml" />
->>>>>>> 3ca9ef304287de15a95176748186ca960b7fb0c8
     </modules>
   </component>
 </project>
