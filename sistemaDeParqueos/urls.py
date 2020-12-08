@@ -27,5 +27,6 @@ urlpatterns = [
     path('comparacion/',vistas.comparacion),
     path('cargador/',vistas.cargardor),
     path('llamadas/',vistas.llamada_estilos),
-    path('logIn/',vistas.mostrarLogin)
+    path('logIn/',vistas.mostrarLogin),
+    path('/fecha<int:edad>/<int:nacimiento>',vistas.obtenerFecha)
 ]
