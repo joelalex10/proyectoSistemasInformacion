@@ -22,5 +22,5 @@ from sistemaDeParqueos import vistas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/',vistas.saludo),
-    path('fecha/<int:edad>/<int:nacimiento>',vistas.obtenerFecha)
+    path('/fecha<int:edad>/<int:nacimiento>',vistas.obtenerFecha)
 ]
